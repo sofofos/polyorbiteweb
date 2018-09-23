@@ -3101,8 +3101,8 @@
 	}
 
 	#header {
-		background: #1c1c1c;
-		color: #d5d5d5;
+		background: #0c0c0c;
+		color: black;
 		cursor: default;
 		height: 5em;
 		left: 0;
@@ -3115,8 +3115,9 @@
 	}
 
 		#header .inner {
-			max-width: 65em;
+
 			width: calc(100% - 6em);
+
 			margin: 0 auto;
 			position: relative;
 		}
@@ -3170,7 +3171,7 @@
 			}
 
 			#header a:last-child {
-				padding: 0px;
+			/*	padding: 0px;*/
 			}
 
 			@media screen and (max-width: 736px) {
