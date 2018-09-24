@@ -487,3 +487,38 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 			}
 
 	}
+    .dropbtn {
+
+    		    padding: inherit;
+    		    font-size: inherit;
+    		    border: none;
+    		}
+
+    		.dropdown {
+    		    position: relative;
+    		    display: flex;
+    			height: 50px;
+    		}
+    		.dropdown-content {
+    		    display: none;
+    		    position: absolute;
+    		    background-color: inherit;
+
+    		}
+
+    		.dropdown-content a {
+    		    color: black;
+    		    padding: 0;
+    		    text-decoration: none;
+    		    display: block;
+    			width: 150px;
+    			background-color: #1c1c1c;
+    			text-align: center;
+    			border: none;
+    		}
+
+    		.dropdown-content a:hover {background-color: black;}
+
+    		.dropdown:hover .dropdown-content {display: block;}
+
+    		.dropdown:hover .dropbtn {background-color: none;}
