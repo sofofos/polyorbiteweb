@@ -3097,16 +3097,16 @@
 
 	body {
 		position: relative;
-		padding-top: 5em;
+		padding-top: 2em;
 	}
 
 	#header {
 		background: #0c0c0c;
 		color: black;
 		cursor: default;
-		height: 5em;
+		height: 4em;
 		left: 0;
-		line-height: 5em;
+		line-height: 4em;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -3407,7 +3407,7 @@
 		padding: 13em 0 13em 0;
 		background-color: #0c0c0c;
 		background-image: url("../../images/logo2.png");
-		background-size: 60% ;
+		background-size: 50% ;
 		background-repeat: no-repeat;
 		background-position: center;
 		text-align: left;
@@ -3621,7 +3621,7 @@
 	}
 
 	#one {
-		padding: 6em 0 4em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		@media screen and (max-width: 980px) {
@@ -3638,6 +3638,12 @@
 				padding: 2em 0 0.1em 0;
 			}
 
+		}
+
+		.flex-container{
+			display: flex;
+			flex-direction: row;
+			background-color: #f3f3f3;
 		}
 
 	#two {
@@ -3666,11 +3672,11 @@
 			}
 
 				#two .inner article:first-child {
-					padding-right: 6em;
+					padding-right: 4em;
 				}
 
 				#two .inner article:last-child {
-					padding-left: 6em;
+					padding-left: 2em;
 				}
 
 		@media screen and (max-width: 980px) {
@@ -3715,7 +3721,7 @@
 		}
 
 	#three {
-		padding: 6em 0 4em 0;
+		padding: 2em;
 	}
 
 		#three .inner {
@@ -3736,7 +3742,7 @@
 		}
 
 			#three .inner article {
-				width: 26%;
+				width: auto;
 				display: block;
 			}
 

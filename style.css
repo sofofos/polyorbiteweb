@@ -511,8 +511,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     		    padding: 0;
     		    text-decoration: none;
     		    display: block;
-    			width: 150px;
-    			background-color: #1c1c1c;
+    			width: auto;
+    			background-color: rgb(12, 12, 12);
     			text-align: center;
     			border: none;
     		}
@@ -521,4 +521,4 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
     		.dropdown:hover .dropdown-content {display: block;}
 
-    		.dropdown:hover .dropbtn {background-color: none;}
+    		.dropdown:hover .dropbtn {background-color: inherit;}
